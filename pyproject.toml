@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "zappa-and-cryptography"
+version = "0.1.0"
+description = "Sample repo to test compatibility of zappa and cryptography."
+authors = ["Lucas Connors <lucas@revolutiontech.ca>"]
+license = "ISC"
+
+[tool.poetry.dependencies]
+python = "^3.6.8"
+Django = "^3.0.3"
+zappa = "^0.50.0"
+cryptography = "^2.8"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+pyupgrade = "^2.1.0"
+
+[tool.black]
+line-length = 88
+target_version = ["py36"]
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"

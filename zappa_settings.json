@@ -1,0 +1,9 @@
+{
+    "dev": {
+        "django_settings": "zappa_and_cryptography.settings",
+        "profile_name": "zappa-and-cryptography-zappa",
+        "project_name": "zappa-and-cryptography",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-and-cryptography-zappa"
+    }
+}
